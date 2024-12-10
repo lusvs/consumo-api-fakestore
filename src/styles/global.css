@@ -5,3 +5,7 @@
     text-decoration: none;
     border: none;
 }
+
+:root{
+    --cor-header: rgb(179, 179, 179);
+}

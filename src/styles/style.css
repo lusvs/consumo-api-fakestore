@@ -1,0 +1,36 @@
+header{
+    
+}
+
+.product-list img{
+    height: 300px;
+    width: 250px;
+}
+
+.h{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px;  
+
+    background-color: var(--cor-header);
+}
+
+.h input{
+    border: 1px black solid;
+}
+
+.product-details{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.product{
+    display: flex;
+}
