@@ -6,6 +6,14 @@
     border: none;
 }
 
+/* CORES */
 :root{
-    --cor-header: rgb(179, 179, 179);
+    --corlor-header: rgb(255, 255, 255);
+    --corlor-main: rgb(255, 255, 255);
+    --color-letter: rgb(0, 0, 0);
+}
+
+/* FONTS */
+:root{
+    
 }

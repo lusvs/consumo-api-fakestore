@@ -16,7 +16,7 @@ async function fetchProducts() {
 
 // Função para exibir os produtos
 function displayProducts(filteredProducts) {
-  productList.innerHTML = ""; // Limpa os produtos anteriores
+ productList.innerHTML = ``; // Limpa os produtos anteriores
   if (filteredProducts.length === 0) {
     productList.innerHTML = "<p>Nenhum produto encontrado.</p>";
     return;
@@ -28,13 +28,13 @@ function displayProducts(filteredProducts) {
 
     productElement.innerHTML = `
     <div class="products">
-    <div class="product-details">
+      <div class="product-details">
         <img src="${product.image}" alt="${product.title}" />
         <strong>${product.title}</strong> 
         <span>Categoria: ${product.category}</span>
         <span>Preço: $${product.price.toFixed(2)}</span>
       </div>
-      </div>
+    </div>
     `;
 
     productList.appendChild(productElement);

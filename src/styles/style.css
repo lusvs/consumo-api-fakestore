@@ -1,6 +1,4 @@
-header{
-    
-}
+@import url('./global.css');
 
 .product-list img{
     height: 300px;
@@ -9,28 +7,45 @@ header{
 
 .h{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 
     padding: 30px;  
 
-    background-color: var(--cor-header);
+    background-color: var(--corlor-header);
+    color: var(--color-letter);
 }
 
 .h input{
+    padding: 15px 25px;
     border: 1px black solid;
 }
 
+.hero{
+    background-color: var(--corlor-main);
+}
+
 .product-details{
-    width: 400px;
+    width: 350px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    
+    padding: 20px;
 
+    border-radius: 50px;
     border: 1px solid black;
+    background-color: white;
 }
 
-.product{
+.products{
     display: flex;
+    /* align-items: center;
+    justify-content: center; */
+
+    border: 1px solid black;
 }
